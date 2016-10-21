@@ -53,6 +53,9 @@ if PY3:
         """Iterates though b'...' string yielding characters as ints. On PY3 iter is the same."""
         return s
 
+    def reprbytes(b):
+        return str(b)[2:][:-1]
+
 
 else:
     stringtypes = (str, unicode, )
@@ -88,4 +91,8 @@ else:
     def iterateints(s):
         """Iterates though b'...' string yielding characters as ints. On PY3 iter is the same."""
         return map(byte2int, s)
+
+    def reprbytes(b):
+        return str(b)
+
 

@@ -8,24 +8,24 @@ except ImportError:
     from distutils.core import setup
 
 HERE = os.path.dirname(__file__)
-exec(open(os.path.join(HERE, "construct", "version.py")).read())
+exec(open(os.path.join(HERE, "construct25", "version.py")).read())
 
 setup(
-    name = "construct",
+    name = "construct25",
     version = version_string, #@UndefinedVariable
     packages = [
-        'construct',
-        'construct.lib', 
-        'construct.formats', 
-        'construct.formats.data', 
-        'construct.formats.executable', 
-        'construct.formats.filesystem', 
-        'construct.formats.graphics',
-        'construct.protocols', 
-        'construct.protocols.application', 
-        'construct.protocols.layer2', 
-        'construct.protocols.layer3', 
-        'construct.protocols.layer4',
+        'construct25',
+        'construct25.lib', 
+        'construct25.formats', 
+        'construct25.formats.data', 
+        'construct25.formats.executable', 
+        'construct25.formats.filesystem', 
+        'construct25.formats.graphics',
+        'construct25.protocols', 
+        'construct25.protocols.application', 
+        'construct25.protocols.layer2', 
+        'construct25.protocols.layer3', 
+        'construct25.protocols.layer4',
     ],
     license = "MIT",
     description = "A powerful declarative parser/builder for binary data",
@@ -36,7 +36,7 @@ setup(
     author_email = "arek.bulski@gmail.com, tomerfiliba@gmail.com, MostAwesomeDude@gmail.com",
     install_requires = [],
     requires = [],
-    provides = ["construct"],
+    provides = ["construct25"],
     keywords = "construct, declarative, data structure, binary, parser, builder, pack, unpack",
     classifiers = [
         "Development Status :: 5 - Production/Stable",

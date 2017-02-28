@@ -1,7 +1,7 @@
 import unittest
 
-from construct.lib.binary import int_to_bin, bin_to_int, swap_bytes, encode_bin, decode_bin
-from construct.lib.expr import Path
+from construct25.lib.binary import int_to_bin, bin_to_int, swap_bytes, encode_bin, decode_bin
+from construct25.lib.expr import Path
 
 
 class TestBinary(unittest.TestCase):

@@ -12,7 +12,7 @@ with a different type of data (numeric, boolean, strings, etc.).
 
 Some examples of parsing:
 
->>> from construct import UBInt16, ULInt16
+>>> from construct25 import UBInt16, ULInt16
 >>> UBInt16("foo").parse("\x01\x02")
 258
 >>> ULInt16("foo").parse("\x01\x02")
@@ -20,7 +20,7 @@ Some examples of parsing:
 
 Some examples of building:
 
->>> from construct import UBInt16, SBInt16
+>>> from construct25 import UBInt16, SBInt16
 >>> UBInt16("foo").build(31337)
 'zi'
 >>> SBInt16("foo").build(-31337)
@@ -35,7 +35,7 @@ of fields or other components, that are parsed/built in that order. Note that
 if two or more fields of a Struct have the same name, the last field "wins";
 that is, the last field's value will be the value returned from a parse.
 
->>> from construct import Struct, UBInt8, SLInt16, LFloat32
+>>> from construct25 import Struct, UBInt8, SLInt16, LFloat32
 >>> c = Struct("foo",
 ...     UBInt8("a"),
 ...     SLInt16("b"),

@@ -4,7 +4,7 @@ import sys
 PY3 = sys.version_info[0] == 3
 def u(s): return s if PY3 else unicode(s.replace(r'\\', r'\\\\'), "unicode_escape")
 
-from construct import String, PascalString, CString, UBInt16, GreedyString
+from construct25 import String, PascalString, CString, UBInt16, GreedyString
 
 
 class TestString(unittest.TestCase):

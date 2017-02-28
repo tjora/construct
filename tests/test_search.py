@@ -1,6 +1,6 @@
 import unittest
 
-from construct import Struct, UBInt8, Bytes, Container, Switch, GreedyRange
+from construct25 import Struct, UBInt8, Bytes, Container, Switch, GreedyRange
 
 struct = Struct("a",
     UBInt8("aa"),

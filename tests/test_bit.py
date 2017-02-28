@@ -1,7 +1,7 @@
 import unittest
 
-from construct import BitField, BitStruct, Struct, Container
-from construct import Bit, Flag, Nibble, Padding
+from construct25 import BitField, BitStruct, Struct, Container
+from construct25 import Bit, Flag, Nibble, Padding
 
 
 class TestBitStruct(unittest.TestCase):

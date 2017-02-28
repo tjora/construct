@@ -1,8 +1,8 @@
 import unittest
 
-from construct import UBInt8
-from construct import Range, Array, GreedyRange, OptionalGreedyRange
-from construct import ArrayError, RangeError
+from construct25 import UBInt8
+from construct25 import Range, Array, GreedyRange, OptionalGreedyRange
+from construct25 import ArrayError, RangeError
 
 
 class TestRange(unittest.TestCase):

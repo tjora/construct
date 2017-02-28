@@ -1,9 +1,9 @@
 import unittest
 
-from construct import Field, UBInt8
-from construct import OneOf, NoneOf, HexDumpAdapter
-from construct import ValidationError
-from construct.protocols.layer3.ipv4 import IpAddress
+from construct25 import Field, UBInt8
+from construct25 import OneOf, NoneOf, HexDumpAdapter
+from construct25 import ValidationError
+from construct25.protocols.layer3.ipv4 import IpAddress
 
 
 class TestHexDumpAdapter(unittest.TestCase):

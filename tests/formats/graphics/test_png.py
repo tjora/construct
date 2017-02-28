@@ -1,8 +1,8 @@
 import unittest, os
 ontravis = 'TRAVIS' in os.environ
 
-from construct.lib.container import Container
-from construct.formats.graphics.png import png_file
+from construct25.lib.container import Container
+from construct25.formats.graphics.png import png_file
 
 class TestPngFormat(unittest.TestCase):
 

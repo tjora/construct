@@ -1,8 +1,8 @@
 import unittest
 
-from construct import Struct, MetaField, StaticField, FormatField, Field
-from construct import Container, Byte
-from construct import FieldError, SizeofError
+from construct25 import Struct, MetaField, StaticField, FormatField, Field
+from construct25 import Container, Byte
+from construct25 import FieldError, SizeofError
 
 
 class TestStruct(unittest.TestCase):

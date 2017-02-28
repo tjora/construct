@@ -1,6 +1,6 @@
 import unittest
-from construct import Struct, UBInt8, UBInt32, IfThenElse, Value, Field, Container
-from construct import this
+from construct25 import Struct, UBInt8, UBInt32, IfThenElse, Value, Field, Container
+from construct25 import this
 
 
 class TestThisExpressions(unittest.TestCase):

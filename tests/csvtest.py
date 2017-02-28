@@ -1,5 +1,5 @@
-from construct import *
-from construct.text import *
+from construct25 import *
+from construct25.text import *
 
 
 class LineSplitAdapter(Adapter):

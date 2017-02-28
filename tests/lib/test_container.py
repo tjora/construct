@@ -1,6 +1,6 @@
 import unittest
 
-from construct.lib.container import Container, ListContainer
+from construct25.lib.container import Container, ListContainer
 from random import randint
 
 class TestContainer(unittest.TestCase):

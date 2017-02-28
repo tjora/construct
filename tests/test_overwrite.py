@@ -1,6 +1,6 @@
 import unittest
 
-from construct import Struct, Byte, Embedded, OverwriteError
+from construct25 import Struct, Byte, Embedded, OverwriteError
 
 
 class TestOverwrite(unittest.TestCase):

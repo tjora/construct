@@ -1,5 +1,5 @@
 import unittest
-from construct import Struct, UBInt8, Bytes, Container
+from construct25 import Struct, UBInt8, Bytes, Container
 
 def foo(ctx):
     print("!! %r" % (ctx,))

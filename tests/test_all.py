@@ -1,6 +1,6 @@
 import sys
-from construct import *
-from construct.lib import LazyContainer
+from construct25 import *
+from construct25.lib import LazyContainer
 import zlib
 
 class ZlibCodec(object):

@@ -70,7 +70,7 @@ Example
 
 A ``PascalString`` is a string prefixed by its length::
 
-    >>> from construct import *
+    >>> from construct25 import *
     >>>
     >>> PascalString = Struct("PascalString",
     ...     UBInt8("length"),
